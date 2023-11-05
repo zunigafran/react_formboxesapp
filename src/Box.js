@@ -17,7 +17,7 @@ function Box({
           backgroundColor
         }}
       />
-      <button onClick={remove}>Remove The Box!</button>
+      <button onClick={remove} title="Remove The Box!" id='rmvbttn'>X</button>
     </div>
   );
 }
