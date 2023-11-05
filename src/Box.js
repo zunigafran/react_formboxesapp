@@ -1,4 +1,5 @@
 import React from "react";
+import './Box.css'
 
 function Box({
   id,
@@ -10,7 +11,7 @@ function Box({
   const remove = () => handleRemove(id);
   return (
     <div>
-      <div
+      <div id="bxclr"
         style={{
           height: `${height}em`,
           width: `${width}em`,
